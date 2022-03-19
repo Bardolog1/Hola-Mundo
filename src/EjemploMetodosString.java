@@ -1,5 +1,3 @@
-import java.util.Locale;
-
 public class EjemploMetodosString {
     public static void main(String[] args) {
         String nombre= "Libardo";

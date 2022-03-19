@@ -1,5 +1,3 @@
-import java.util.Locale;
-
 public class EjemploValidarString {
     public static void main(String[] args) {
 

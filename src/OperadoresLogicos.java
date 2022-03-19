@@ -13,11 +13,14 @@ public class OperadoresLogicos {
         boolean b2 = i ==j  || k>l;
         System.out.println("b2 = " + b2);
 
-        boolean b3 = i==j && k>l || m==false; // se evaluan de iz a dere
+        boolean b3 = i==j && k>l || m==false; // se evaluan de iz a dere pero para dar mas prioridad a un operador se deja la expresión con prioridad dentro de parentesis
         System.out.println("b3 = " + b3);
 
-        
+        boolean b4 = i==j && (k>l || m==false); // aqui se da mas importancia a un operador con los parentesis lo cual va a ser falso en este caso, siendo que es la misma expresión anterior pero en esta priorizamos una operacion
+        System.out.println("b4 = " + b4);
 
+        boolean b5 = i==j || k<l && m==true;  // en este caso en teoria daria false, pero el && tiene precedencia mas que el || entonces se va a evaluar primero el operador &&
+        System.out.println("b5 = " + b5);
 
 
 
