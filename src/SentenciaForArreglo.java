@@ -1,5 +1,4 @@
 import javax.swing.*;
-
 public class SentenciaForArreglo {
     public static void main(String[] args) {
         String [] nombre={"Andres","pedro","pepe","camilo","carlos","mauricio","miguel"};
@@ -23,7 +22,7 @@ public class SentenciaForArreglo {
             if (nombre[i].equalsIgnoreCase(buscar)){
                 encontrado =true;
                 break;
-            }else encontrado = false;
+            }
 
             if (encontrado) System.out.println("Encontramos el nombre: "+ buscar);
             else JOptionPane.showMessageDialog(null,buscar+" no fue encontrado en el sistema");
