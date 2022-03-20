@@ -19,12 +19,11 @@ public class SentenciaFor {
 
             break;// podemos dejar el incremento al final
         }
-        for (int i = 0; i < 30; i++) {
+        for (int i = 0; i < 30; i++) {  //for de numeros impares
             if (i%2 ==0){
-
-
-
+                continue;  // con continue salimos de la iteración cada vez que sea un numero par
             }
+            System.out.println("i = " + i);
 
         }
 
