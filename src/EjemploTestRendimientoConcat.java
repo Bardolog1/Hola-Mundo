@@ -14,10 +14,15 @@ public class EjemploTestRendimientoConcat {
             sb.append(a).append(b).append("\n");  // 500 0> 4ms es la forma mas rapida de concatenarString builder mutable y su metodo de concatenación
 
         }
+        System.gc();  // recolector de basura parab liberar espacio, cuando hay muchas instancias
+
+
         long fin =System.currentTimeMillis();
         System.out.println(fin-inicio);
         System.out.println(" c= " +c);
         System.out.println("sb = " + sb.toString());
+        System.exit(0); //cuando noy errores
+
 
 
 
