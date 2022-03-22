@@ -10,6 +10,7 @@ public class ProgramaMenuOpcionesIterativo {
             opciones.put("Eliminar", 2);
             opciones.put("Agregar", 3);
             opciones.put("Listar", 4);
+
             opciones.put("Salir", 5);
 
             Object[] opArreglo = opciones.keySet().toArray();
